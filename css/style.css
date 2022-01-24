@@ -1,28 +1,14 @@
-body {
-    font-family: Merienda;
-}
+ @import url('https://fonts.googleapis.com/css2?family=Neonderthaw&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Lobster&family=Neonderthaw&display=swap');
 
-header {
-    background-size: cover;
-    display: flex;
-    align-items: center;
-    padding: 0 32px;
-    justify-content: space-between;
-    position: fixed;
-    width: 100%;
-    box-sizing: border-box;
-    top: 0;
-    border: rgb(238, 3, 109) solid ;    
-}
-
-#logo { 
-    display: flex;
-    font-weight: 900;
-    color: #333;
-    justify-content: center;
-    width: 300px;
-    height: 300px;
-    
+ .nav-links {
+    margin: 2px 0 0 0;
+    /* background-color: pink; */
+    border-radius: 15px;
+    padding:20px;
+    /* font-family:'Lobster', cursive; */
+    font-size: large;
+    margin-left:150px;
 }
 
 .nav-links li {
@@ -31,13 +17,144 @@ header {
     padding-left: 32px;
     text-transform: bold;
     font-weight: bolder;
+    margin: 0 50px 0 80px
 }
 
 .nav-links li a {
-    color : #333;
+    color : black;
     text-decoration:none;
 }
 
 .nav-links li a:hover { 
-    color: #ccc;
+    color: rgb(0, 0, 0);
+} 
+
+#userProfile {
+    text-align: right;
 }
+
+#userProfile li {
+    list-style: none;
+    display:inline;
+    flex-direction: row;
+    margin:0 20px 0 20px;
+    font-size: smaller;
+}
+
+#userProfile li a {
+    text-decoration: none;
+    color: rgb(134, 134, 134);
+
+}
+
+html {
+    background-color: white;
+}
+
+content {
+    margin: 10px 0 10px 0;
+    display: flex;
+    /* align-items: center; */
+    /* justify-content: left; */
+    flex-wrap: wrap;
+    /* gap: 1ch; */
+    background-color: rgb(255, 251, 0);
+    border-radius: 20px;
+}
+
+content .events { 
+    
+}
+
+
+footer {
+    display: flex;
+    justify-content: center;
+    background-image: linear-gradient(to right, rgb(253, 169, 183), hotpink, #f862a1, hotpink,rgb(253, 169, 183));
+    border-radius: 15px;
+    /* font-family: 'Lobster'; */
+}
+
+h3 { 
+}
+
+h4 {
+    /* font-family: 'Lobster', cursive; */
+}
+
+#topNavBar {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    height:50px;
+    display:flex;
+    flex-direction: row;
+    color:black;
+    background-image: linear-gradient(to right, rgb(253, 169, 183), hotpink, #f862a1, hotpink,rgb(253, 169, 183));
+    border-radius: 20px;
+}
+
+#logo {
+    width:50px;
+    height:50px;
+    margin-left: 5%;
+}
+
+content :hover {
+    color:red;
+    opacity: .5;
+    transform:scale(1.1);
+}
+
+.event-container {
+    flex-flow: row wrap;
+    justify-content:space-around;
+    background-color: white;
+}
+
+.event-container .events {
+    border-radius: 15px;
+}
+
+#leftEventBar {
+    height:400px;
+    width:400px;
+    background-color: red;    
+}
+
+#middleEventBar {
+    height:400px;
+    width:400px;
+    background-color: blue;    
+}
+
+#rightEventBar {
+    height:400px;
+    width:400px;
+    background-color: green;    
+}
+
+#bottomEventBar {
+    height:400px;
+    width:400px;
+    background-color: yellow;    
+}
+
+#bottomLeftEventBar {
+    height:400px;
+    width:400px;
+    background-color: pink;    
+}
+
+#bottomRightEventBar {
+    height:400px;
+    width:400px;
+    background-color: orange;    
+}
+
+#bottomMidEventBar {
+    height:400px;
+    width:400px;
+    background-color: purple;    
+}
+
+
+
