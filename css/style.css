@@ -120,6 +120,17 @@ content :hover {
 
 }
 
+.onboardButton {
+    width: 250px;
+    height:50px;
+    border-radius: 15px;
+
+}
+
+a .button {
+    appearance: button;
+}
+
 #leftEventBar {
     height:400px;
     width:400px;
