@@ -1,2 +1,2 @@
 RFC PAGE
-![Alt text](repo/RFC_page_V.2)
+![Alt text](repo/RFC_page_V.2.PNG)
