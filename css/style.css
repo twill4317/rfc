@@ -1,12 +1,52 @@
  @import url('https://fonts.googleapis.com/css2?family=Neonderthaw&display=swap');
  @import url('https://fonts.googleapis.com/css2?family=Lobster&family=Neonderthaw&display=swap');
 
+ html {
+    background-color: white;
+}
+
+#userProfile {
+    text-align: right;
+    background-color: pink;
+}
+
+#userProfile li {
+    list-style: none;
+    display:inline;
+    flex-direction: row;
+    margin:0 20px 0 20px;
+    font-size: smaller;
+    text-transform: bold;
+    font-weight: bolder;
+}
+
+#userProfile li a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+
+}
+
+#topNavBar {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    height:50px;
+    display:flex;
+    flex-direction: row;
+    color:black;
+    background-image: linear-gradient(to right, rgb(253, 169, 183), hotpink, #f862a1, hotpink,rgb(253, 169, 183));
+    border-radius: 20px;
+    margin: 100px 0 0 0;
+}
+
+#logo {
+    width:50px;
+    height:50px;
+    margin-left: 5%;
+}
+
  .nav-links {
-    margin: 2px 0 0 0;
-    /* background-color: pink; */
+    margin: 2px 0 10px 0;
     border-radius: 15px;
-    padding:20px;
-    /* font-family:'Lobster', cursive; */
+    padding: 15px 0 10px 0;
     font-size: large;
     margin-left:150px;
 }
@@ -29,89 +69,38 @@
     color: rgb(0, 0, 0);
 } 
 
-#userProfile {
-    text-align: right;
-}
-
-#userProfile li {
-    list-style: none;
-    display:inline;
-    flex-direction: row;
-    margin:0 20px 0 20px;
-    font-size: smaller;
-}
-
-#userProfile li a {
-    text-decoration: none;
-    color: rgb(134, 134, 134);
-
-}
-
-html {
-    background-color: white;
+body{ 
+    background-image: url('/repo/rfc_bg.jpg');
+    background-repeat: repeat;
+    background-size: fixed;
 }
 
 content {
     margin: 10px 0 10px 0;
     display: flex;
-    /* align-items: center; */
-    /* justify-content: left; */
     flex-wrap: wrap;
     /* gap: 1ch; */
     background-color: rgb(255, 251, 0);
-    border-radius: 20px;
-}
-
-content .events { 
-    
-}
-
-
-footer {
-    display: flex;
-    justify-content: center;
-    background-image: linear-gradient(to right, rgb(253, 169, 183), hotpink, #f862a1, hotpink,rgb(253, 169, 183));
-    border-radius: 15px;
-    /* font-family: 'Lobster'; */
-}
-
-h3 { 
-}
-
-h4 {
-    /* font-family: 'Lobster', cursive; */
-}
-
-#topNavBar {
-    font-family:Georgia, 'Times New Roman', Times, serif;
-    height:50px;
-    display:flex;
-    flex-direction: row;
-    color:black;
-    background-image: linear-gradient(to right, rgb(253, 169, 183), hotpink, #f862a1, hotpink,rgb(253, 169, 183));
-    border-radius: 20px;
-}
-
-#logo {
-    width:50px;
-    height:50px;
-    margin-left: 5%;
+    border-radius: 5px;
 }
 
 content :hover {
     color:red;
     opacity: .5;
     transform:scale(1.1);
+    
 }
 
 .event-container {
     flex-flow: row wrap;
     justify-content:space-around;
-    background-color: white;
+    background-color: rgba(255, 80, 162, 0.753);
 }
 
 .event-container .events {
     border-radius: 15px;
+    margin: 150px 0 50px 0;
+
 }
 
 #leftEventBar {
@@ -156,5 +145,10 @@ content :hover {
     background-color: purple;    
 }
 
-
-
+footer {
+    display: flex;
+    justify-content: center;
+    background-image: linear-gradient(to right, rgb(253, 169, 183), hotpink, #f862a1, hotpink,rgb(253, 169, 183));
+    border-radius: 10px;
+    /* font-family: 'Lobster'; */
+}
