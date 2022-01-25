@@ -1,2 +1,2 @@
 RFC PAGE
-![Alt text](C:\Users\bandi\OneDrive\Desktop\code\docs\RFC_page_V.2)
+![Alt text](repo/RFC_page_V.2)
