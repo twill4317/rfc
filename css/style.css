@@ -5,12 +5,14 @@
     background-color: white;
 }
 
-#userProfile {
+#headerTopTrim {
     text-align: right;
-    background-color: pink;
+    background-color: rgba(255, 192, 203, 0.89);
+    width: 100%;
+    height: 40px;
 }
 
-#userProfile li {
+#headerTopTrim li {
     list-style: none;
     display:inline;
     flex-direction: row;
@@ -20,13 +22,13 @@
     font-weight: bolder;
 }
 
-#userProfile li a {
+#headerTopTrim li a {
     text-decoration: none;
     color: rgb(0, 0, 0);
 
 }
 
-#userProfile li a:hover{
+#headerTopTrim li a:hover{
     color:grey;
     opacity: .3;
 }
@@ -101,17 +103,13 @@ content {
     border-radius: 5px;
 }
 
-content :hover {
-    color:red;
-    opacity: .5;
-    transform:scale(1.1);
-    
-}
-
 .event-container {
     flex-flow: row wrap;
     justify-content:space-around;
     background-color: rgba(255, 80, 162, 0.753);
+    width:100%;
+    height:600px;
+
 }
 
 .event-container .events {
@@ -120,15 +118,49 @@ content :hover {
 
 }
 
-.onboardButton {
+button {
     width: 250px;
     height:50px;
     border-radius: 15px;
-
+    background-color: rgb(17, 173, 17);
+    color:rgb(0, 0, 0);
 }
 
-a .button {
-    appearance: button;
+.sign-up-button { 
+    margin:auto;
+}
+
+
+
+.form-frame {
+    background-color: rgba(255, 255, 255, 0.637);
+    height: 250px;
+    width:400px;
+    display: flex;
+    flex-wrap: wrap;
+    align-self: center;
+    border-radius: 10px;
+}
+
+.form-frame input {
+    height: 30px;
+    border-radius: 5px;
+    margin: 0 10px 0 10px;
+    
+}
+
+.form-title {
+    width: 100%;
+    height: 90px;
+    background-color: rgb(17, 173, 17);
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.form-title h1 { 
+    display: flex;
+    justify-content: center;
+    color: pink;
 }
 
 #leftEventBar {
@@ -178,5 +210,7 @@ footer {
     justify-content: center;
     background-image: linear-gradient(to right, rgb(253, 169, 183), hotpink, #f862a1, hotpink,rgb(253, 169, 183));
     border-radius: 10px;
+    width:100%;
+    height:40px;
     /* font-family: 'Lobster'; */
 }
