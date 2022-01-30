@@ -1,0 +1,28 @@
+{
+  "name": "rfc-site",
+  "version": "1.0.0",
+  "description": "\"\"",
+  "main": "app/js/src/index.js",
+  "type": "module",
+  "scripts": {
+    "build": "app/js/src/index.js",
+    "test": "\"echo \\\"Error: no test specified\\\" && exit1\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/twill4317/rfc.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/twill4317/rfc/issues"
+  },
+  "homepage": "https://github.com/twill4317/rfc#readme",
+  "devDependencies": {
+    "webpack": "^5.67.0",
+    "webpack-cli": "^4.9.2"
+  },
+  "dependencies": {
+    "express": "^4.17.2"
+  }
+}
