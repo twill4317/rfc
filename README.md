@@ -1,2 +1,2 @@
 **_RFC Hompage_**
-![Alt text](repo/RFC_page_V.2.PNG)
+![Alt text](app/repo/RFC_page_V.2.PNG)
